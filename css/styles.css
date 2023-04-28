@@ -11320,6 +11320,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
 }
 .carousel-caption {
   background-color: #22373f;
@@ -11574,6 +11575,7 @@ header.masthead .masthead-heading {
   margin-right: 8px;
   margin-bottom: 8px;
   padding: 5px 5px 0 5px;
+  cursor: pointer;
 }
 
 .caption-buttons > *:hover {
@@ -11584,6 +11586,9 @@ header.masthead .masthead-heading {
   margin-top: 15px;
   border-bottom: 1px solid var(--bs-gray-700);
   padding-left: 0;
+}
+.house-bedroom {
+  padding-right: 15px;
 }
 
 .house-bedroom h5 {
@@ -11624,7 +11629,6 @@ header.masthead .masthead-heading {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: space-between;
 }
 
 .region-image-zone {
@@ -11648,4 +11652,25 @@ header.masthead .masthead-heading {
   height: 400px;
   width: auto!important;
   margin: auto;
+}
+
+.about-title-collapse {
+  width: fit-content;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: var(--bs-gray-500);
+}
+
+.about-title-collapse[aria-expanded="true"] {
+  color: var(--bs-gray-800);
+  font-weight: 700;
+  text-decoration: dashed;
+}
+
+#region {
+  padding: 10px 15px;
+}
+
+.region-title .region-gallery {
+  float: right;
 }

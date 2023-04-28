@@ -49,7 +49,6 @@
             <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Les pièces</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8">
@@ -235,7 +234,6 @@
             <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Le Gîte</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-md-7 col-12 house-zone">
@@ -387,62 +385,128 @@
             <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">La région</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-xl-4 region-description">
+                    <h4 class="about-title-collapse" data-bs-toggle="collapse" data-bs-target="#gorgeCollapse" aria-expanded="true" aria-controls="gorgeCollapse">
+                        Les Gorges de l'Ardèche
+                    </h4>
+                    <h4 class="about-title-collapse" data-bs-toggle="collapse" data-bs-target="#grotteCollapse" aria-expanded="false" aria-controls="grotteCollapse">
+                        Grotte Chauvet
+                    </h4>
+                </div>
+                <div class="collapse show" id="gorgeCollapse" data-bs-parent="#region">
+                    <div class="card card-body">
                         <div class="row">
-                            <div class="col-12 region-title">
-                                <h4><a target="_blank" href="https://www.ardeche-guide.com/sites-incontournables/les-gorges-de-l-ardeche">Les Gorges de l'Ardèche</a></h4>
-                                <p>Les Gorges d'Ardèche sont des gorges pittoresques et des hauts lieux touristiques du département de l'Ardèche en France, bordant le département du Gard dans son cours inférieur.<br>
-                                    Ils forment un important canyon d'une trentaine de kilomètres, creusé par la rivière Ardèche dans le plateau calcaire, entre le Pont d'Arc de Vallon-Pont-d'Arc et Saint-Martin-d'Ardèche, accessible en canoë Descente - kayak, ou randonnée, ou suivre la route touristique D 290 côté nord, à travers la brousse, avec 11 plates-formes panoramiques.<br>
-                                    Elles sont classées Réserve Naturelle Nationale depuis 1980, la Réserve Nationale des Gorges d'Ardèche</p>
+                            <div class="col-12 region-description">
+                                <div class="row">
+                                    <div class="col-12 region-title">
+                                        <p>
+                                            <div class="col-8 region-gallery">
+                                                <div class="row d-none region-image d-lg-flex">
+                                                    <div class="col-4 region-image-zone region-image-zone-left">
+                                                        <img src="./assets/img/region/gorge-1.jpg"/>
+                                                        <img src="./assets/img/region/gorge-3.jpg"/>
+                                                    </div>
+                                                    <div class="col-8 region-image-zone region-image-zone-right">
+                                                        <img src="./assets/img/region/gorge-2.jpg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            Les Gorges d'Ardèche sont des gorges pittoresques et des hauts lieux touristiques du département de l'Ardèche en France, bordant le département du Gard dans son cours inférieur.<br>
+                                            Ils forment un important canyon d'une trentaine de kilomètres, creusé par la rivière Ardèche dans le plateau calcaire, entre le Pont d'Arc de Vallon-Pont-d'Arc et Saint-Martin-d'Ardèche, accessible en canoë Descente - kayak, ou randonnée, ou suivre la route touristique D 290 côté nord, à travers la brousse, avec 11 plates-formes panoramiques.<br>
+                                            Elles sont classées Réserve Naturelle Nationale depuis 1980, la Réserve Nationale des Gorges d'Ardèche
+                                        </p>
+                                        <h4><a target="_blank" href="https://www.ardeche-guide.com/sites-incontournables/les-gorges-de-l-ardeche">Pour plus d'information</a></h4>
+                                    </div>
+                                    <div class="col-12 d-lg-none region-gallery">
+                                        <div id="regionGorgeCaption" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#regionGorgeCaption" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                                <button type="button" data-bs-target="#regionGorgeCaption" data-bs-slide-to="1" aria-current="true"></button>
+                                                <button type="button" data-bs-target="#regionGorgeCaption" data-bs-slide-to="2" aria-current="true"></button>
+                                            </div>
+                                            <!-- BEDROOM CAPTION -->
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="./assets/img/region/gorge-3.jpg" alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="./assets/img/region/gorge-2.jpg" alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="./assets/img/region/gorge-1.jpg" alt="Third slide">
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#regionGorgeCaption" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#regionGorgeCaption" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-8 region-gallery">
-                        <div class="row d-none region-image d-md-flex">
-                            <div class="col-4 region-image-zone region-image-zone-left">
-                                <img src="./assets/img/region/grotte-1.jpg"/>
-                                <img src="./assets/img/region/grotte-3.jpg"/>
-                            </div>
-                            <div class="col-8 region-image-zone region-image-zone-right">
-                                <img src="./assets/img/region/grotte-2.jpg"/>
-                            </div>
-                        </div>
-                        <div class="d-md-none">
-                            <div id="regionCaption" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#regionCaption" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#regionCaption" data-bs-slide-to="1" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#regionCaption" data-bs-slide-to="2" aria-current="true"></button>
-                                </div>
-                                <!-- BEDROOM CAPTION -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="./assets/img/region/grotte-3.jpg" alt="First slide">
+                </div>
+                <div class="collapse" id="grotteCollapse" data-bs-parent="#region">
+                    <div class="card card-body">
+                        <div class="row">
+                            <div class="col-12 col region-description">
+                                <div class="row">
+                                    <div class="col-12 region-title">
+                                        <p>
+                                            <div class="col-8 region-gallery">
+                                                <div class="row d-none region-image d-lg-flex">
+                                                    <div class="col-7 region-image-zone region-image-zone-left">
+                                                        <img src="./assets/img/region/grotte-1.jpg"/>
+                                                    </div>
+                                                    <div class="col-5 region-image-zone region-image-zone-right">
+                                                        <img src="./assets/img/region/grotte-2.jpg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            La grotte Chauvet a été découverte il y a 28 ans à Vallon-Pont-d'Arc, à l'entrée des gorges de l'Ardèche, par Jean-Marie Chauvet, agent de l'État chargé de la garde des grottes magnifiquement ornées de l'Ardèche, et deux spéléologues, Éliette Brunel et Christian Hilaire.<br>
+                                            Le site n'accueille chaque année qu'une centaine de privilégiés : chercheurs, scientifiques et même officiels, car il s'agit de protéger la grotte de la dégradation qui a endommagé les peintures d'une autre grotte célèbre, La La en Dordogne, la Scott Cave.<br>
+                                            La grotte Chauvet a été inscrite au patrimoine mondial de l'UNESCO en 2014, et la liste comprend l'ensemble du site ainsi que l'arche naturelle du Pont d'Arc.
+                                        </p>
+                                        <h4><a target="_blank" href="https://www.grottechauvet2ardeche.com/">Pour plus d'information</a></h4>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./assets/img/region/grotte-2.jpg" alt="Second slide">
+                                    <div class="col-12 region-gallery d-lg-none">
+                                        <div id="regionGrotteCaption" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#regionGrotteCaption" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                                                <button type="button" data-bs-target="#regionGrotteCaption" data-bs-slide-to="1" aria-current="true"></button>
+                                                <button type="button" data-bs-target="#regionGrotteCaption" data-bs-slide-to="2" aria-current="true"></button>
+                                            </div>
+                                            <!-- BEDROOM CAPTION -->
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="./assets/img/region/grotte-1.jpg" alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="./assets/img/region/grotte-2.jpg" alt="Second slide">
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#regionGrotteCaption" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#regionGrotteCaption" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./assets/img/region/grotte-1.jpg" alt="Third slide">
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#regionCaption" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#regionCaption" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
