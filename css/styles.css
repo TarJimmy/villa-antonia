@@ -11231,6 +11231,8 @@ p {
 }
 
 #mainNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
@@ -11644,7 +11646,7 @@ header.masthead .masthead-heading {
   color: var(--bs-gray-600);
 }
 .region-description, .region-image {
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 .region-gallery .carousel {
