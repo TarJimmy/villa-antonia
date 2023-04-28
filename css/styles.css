@@ -197,6 +197,7 @@ h6,
 }
 
 p {
+  text-align: justify;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -11584,8 +11585,25 @@ header.masthead .masthead-heading {
   opacity: 0.8;
 }
 
+.house-description {
+  padding: 20px;
+}
+.house-description p {
+  padding-right: 30px;
+}
+
+.house-description ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.house-description ul svg {
+  margin-right: 8px;
+}
+
 .house-title {
   margin-top: 15px;
+  margin-bottom: 10px;
   border-bottom: 1px solid var(--bs-gray-700);
   padding-left: 0;
 }
