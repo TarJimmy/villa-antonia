@@ -11720,3 +11720,7 @@ header.masthead .masthead-heading {
 .owner {
   color: var(--bs-gray-700);
 }
+
+iframe {
+  width: 100%;
+}
