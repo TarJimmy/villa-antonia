@@ -11698,6 +11698,10 @@ header.masthead .masthead-heading {
   color: var(--bs-gray-500);
 }
 
+.about-title-collapse:not(:last-child) {
+  border-right: 5px solid var(--bs-gray-500);
+}
+
 .about-title-collapse[aria-expanded="true"] {
   color: var(--bs-gray-800);
   font-weight: 700;
