@@ -11744,6 +11744,24 @@ iframe {
   margin: 8px 0;
   font-size: 18px;
   font-weight: 600;
+  aspect-ratio: 16/9;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  outline: 1em solid white;
+}
+
+.activite-sportive-item span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--bs-gray-700);
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  padding: 5px;
 }
 
 .activite-sportive-item svg {
