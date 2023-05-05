@@ -11673,7 +11673,12 @@ header.masthead .masthead-heading {
   font-size: 15px;
   color: var(--bs-gray-600);
 }
-.region-description, .region-image {
+
+.region-description {
+  padding: 10px 20px;
+}
+
+.region-image {
   padding: 0 20px;
 }
 
@@ -11710,6 +11715,10 @@ header.masthead .masthead-heading {
 
 #region {
   padding: 10px 15px;
+}
+
+#region .card-body {
+  padding: 25px;
 }
 
 .region-title .region-gallery {
