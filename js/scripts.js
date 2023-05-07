@@ -51,4 +51,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    var actuallyContainer = document.getElementById('actually-container');
+    if (actuallyContainer && htmlActuallyTitle) actuallyContainer.innerHTML += `<div class="col-12"><h4>${htmlActuallyTitle}</h4></div>`;
+    if (actuallyContainer && htmlActuallyContainer) actuallyContainer.innerHTML += '\n' + `<div class="col-12 col region-description"><div class="row"><div class="col-12 region-title"><p>${htmlActuallyContainer}</p></div></div></div>`;
 });
